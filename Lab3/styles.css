@@ -1,0 +1,11 @@
+/* Style for the header with id "firstHeader" */
+#firstHeader {
+  color: red;     /* Set the text color to red */
+  font-weight: bold;  /* Make the text bold */
+}
+
+/* Style for paragraphs with class "greenText" */
+.greenText {
+  color: green;   /* Set the text color to green */
+  font-style: italic;  /* Make the text italic */
+}

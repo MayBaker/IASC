@@ -1,0 +1,16 @@
+/* Style the body */
+body {
+  background-color: red;  /* Set the background color to red */
+}
+
+/* Style the unordered list (<ul>) */
+ul {
+  color: green;           /* Set the text color to green */
+  font-style: italic;     /* Make the text italic */
+}
+
+/* Style the list items (<li>) */
+li {
+  display: inline;        /* Display items inline (horizontally) */
+  font-size: 30px;        /* Set font size to 30px */
+}
