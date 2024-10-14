@@ -1,0 +1,55 @@
+/* Reseting all margins & padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  background-color: red;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+#content-wrapper {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+
+#left-side {
+  background-color: #008000; /* Green, had to put value because when I put "green the colours were innacurate " */
+  color: white;
+  width: 150px;
+  padding: 20px;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+#main-content {
+  background-color: #008000;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+
+#footer {
+  background-color: blue;
+  color: white;
+  text-align: left;
+  padding: 10px;
+  height: 60px;
+  line-height: 40px;
+  flex-shrink: 0;
+}
