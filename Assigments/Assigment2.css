@@ -1,0 +1,103 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0056A6;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+/* Banner Section */
+.banner {
+    text-align: center;
+    padding: 40px;
+    background-color: #007CC3;
+    color: white;
+}
+
+.featured-image img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Main Content */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.car-deals, .featured-cars, .testimonials, .why-choose-us {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.car-deals h2, .featured-cars h2, .why-choose-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.car-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car-item {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+}
+
+.testimonial-item {
+    margin: 10px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+}
