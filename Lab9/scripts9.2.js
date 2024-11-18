@@ -1,15 +1,16 @@
+function calculateBirthYear() {
+    var age = prompt(" enter your age:");
 
-document.getElementById("blue").style.color = "blue";
-document.getElementById("green").style.color = "green";
-document.getElementById("red").style.color = "red";
+    age = Number(age);
 
+    if (isNaN(age) || age <= 0) {
+        alert("haha you're so funny. Look at me guys!! I entered a negative age I am so funny. Everybody hates, you grow up");
+        return;
+    }
 
-function mix() {
-    var first = "#00BB00";
-    var second = "#BB9320";
-    var third = "#AB00FF";
+    var currentYear = new Date().getFullYear();
 
-    document.getElementById("blue").style.color = first;
-    document.getElementById("green").style.color = second;
-    document.getElementById("red").style.color = third;
+    var birthYear = currentYear - age;
+
+    alert("You were born in the year " + birthYear + ".");
 }
