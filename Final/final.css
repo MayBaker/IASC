@@ -1,0 +1,191 @@
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+.header {
+    background-color: #003366; /* BMW Blue */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header .logo img {
+    height: 50px;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header nav a:hover {
+    color: #FFD700; /* Gold Accent */
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+    background: url('e92-banner.jpg') center/cover no-repeat;
+    background-color: #003366; /* Fallback color */
+}
+
+.banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner video {
+    width: 80%;
+    max-width: 600px;
+    border: 3px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.banner button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FFD700;
+    color: #003366;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.banner button:hover {
+    background-color: #003366;
+    color: #FFD700;
+}
+
+/* Features Section */
+.features {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 28px;
+    color: #0056A6;
+    margin-bottom: 20px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.feature-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feature-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FFD700;
+    color: #003366;
+    padding: 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    background-color: #003366;
+    color: #FFD700;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Video Section */
+.performance-video {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.performance-video h2 {
+    font-size: 24px;
+    color: #0056A6; /* BMW Blue */
+    margin-bottom: 20px;
+}
+
+.performance-video video {
+    width: 90%;
+    max-width: 600px;
+    border: 3px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
